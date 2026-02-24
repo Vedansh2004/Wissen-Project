@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: seat-allocation
+  data:
+    mongodb:
+      # Update this URI to connect to your MongoDB database
+      uri: mongodb://localhost:27017/wissen
+      
+      # Alternative connection options:
+      # uri: mongodb://username:password@host:port/database
+      # uri: mongodb+srv://username:password@cluster.mongodb.net/database
+      
+      # Or use individual properties:
+      # host: localhost
+      # port: 27017
+      # database: seat_allocation
+      # username: your_username
+      # password: your_password
+
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+    org.springframework.security: INFO
+    org.springframework.data.mongodb.core.MongoTemplate: INFO
+
+seat-allocation:
+  office:
+    total-seats: 50
+    floating-seats: 10
+    designated-seats: 40
+
