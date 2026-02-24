@@ -340,3 +340,7 @@ For support and questions:
 ---
 
 **Built with ❤️ using Spring Boot 3 and MongoDB**
+=======
+# Wissen-Project
+This is my project as instructed by sir on Seat Booking System, i made it using Spring-Boot with Thymleaf for frontend.
+>>>>>>> fa939d5b181c20cee64f64f0f5620d20009d70c5
